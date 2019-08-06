@@ -1,6 +1,13 @@
 import React from 'react'
 import '../App.css';
 
+// El siguiente endpoint devuelve una lista de usuarios:
+// https://reqres.in/api/users
+
+// Mostrar las imagenes de usuarios de una página dada por parámetro desde el front.
+// Ejemplo: 
+// El usuario final ingresa "2" --> se debe consultar "https://reqres.in/api/users?page=2"
+
 class Ejercicio2 extends React.Component {
 
   state = {

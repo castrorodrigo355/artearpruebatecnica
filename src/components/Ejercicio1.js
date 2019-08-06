@@ -1,6 +1,10 @@
 import React from 'react'
 import '../App.css';
 
+// El siguiente endpoint devuelve una lista de usuarios:
+// https://reqres.in/api/users?page=1
+// Obtener el porcentaje de personas cuyo nombre y apellido tienen mas de 12 caracteres.
+
 class Ejercicio1 extends React.Component {
 
     state = {
